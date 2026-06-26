@@ -1,0 +1,9 @@
+﻿stage,remaining_rows,loss_at_this_step,cumulative_loss,coverage_pct
+1_universe_company_master,381,0,0,100.0
+2_corp_code_found,381,0,0,100.0
+3_rcept_no_found,68,313,313,17.8
+4_zip_on_disk,68,0,313,17.8
+5_sections_extracted,68,0,313,17.8
+6_passages_aggregated,61,7,320,16.0
+7_feature_ready_expF,60,1,321,15.7
+8_merged_with_kcgs_expF,60,0,321,15.7

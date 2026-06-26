@@ -1,0 +1,9 @@
+﻿feature,rho,p,sig,N
+total_tokens,0.6614,0.0,***,381
+esg_signal_count,0.5061,0.0,***,381
+g_signal_count,0.6387,0.0,***,381
+esg_signal_ratio,0.2357,0.0,***,381
+g_signal_ratio,-0.1866,0.0003,***,381
+esg_tfidf_concentration,-0.23,0.0,***,381
+esg_g_relative,,,ns,381
+bp_contamination_rate,,,ns,381

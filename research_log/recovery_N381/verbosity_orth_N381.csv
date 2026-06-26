@@ -1,0 +1,8 @@
+﻿feature,rho_raw,p_raw,rho_orth,p_orth
+esg_signal_count,0.5061,0.0,-0.3123,0.0
+g_signal_count,0.6387,0.0,0.2942,0.0
+esg_signal_ratio,0.2357,0.0,-0.0431,0.4019
+g_signal_ratio,-0.1866,0.0003,0.3253,0.0
+esg_tfidf_concentration,-0.23,0.0,0.2016,0.0001
+esg_g_relative,,,0.575,0.0
+bp_contamination_rate,,,,
