@@ -1,0 +1,5 @@
+﻿variable,VIF,flag
+g_signal_ratio,7.866,MODERATE
+esg_tfidf_concentration,4.938,OK
+log_tokens,2.891,OK
+esg_signal_ratio,1.292,OK

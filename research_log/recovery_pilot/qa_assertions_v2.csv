@@ -1,0 +1,25 @@
+check,status,detail
+corpus_tokens.json loadable,PASS,"keys=['000020_2022', '000020_2023', '000020_2024']..."
+row count match (F vs F_official),PASS,"F=213, F_official=213"
+"F_official unique (stock_code,fiscal_year)",FAIL,2 duplicates
+matched-sample N,FAIL,common N=212
+esg_signal_count invariant (F vs F_official),PASS,all 210 rows match
+g_signal_count invariant,PASS,all 210 rows match
+bp_count invariant,PASS,all 210 rows match
+total_tokens monotone decrease,PASS,"min Δ=-727, max Δ=0, mean Δ=-125.4"
+official stopwords file present,PASS,size=237 bytes
+recovery artifact: stopwords_delta_spearman.csv,PASS,size=618 bytes
+recovery artifact: verbosity_orth_delta.csv,PASS,size=453 bytes
+recovery artifact: bootstrap_ci_before_after.csv,PASS,size=488 bytes
+recovery artifact: sign_stability_before_after.csv,PASS,size=319 bytes
+recovery artifact: feature_means_delta.csv,PASS,size=381 bytes
+Stage-4 HTML present,PASS,size=16755 bytes
+preprocessor.py contains STOPWORDS_OFFICIAL,PASS,found
+preprocessor.py contains STOPWORDS_EXTENDED_PLUS_OFFICIAL,PASS,found
+preprocessor.py contains load_official_stopwords,PASS,found
+preprocessor.py contains get_stopword_set,FAIL,MISSING
+preprocessor.py contains exp_F_official,PASS,found
+02_preprocess_exp_F_report.md has patch section,PASS,ok
+03_feature_validation_report.md has patch section,PASS,ok
+04_regression_robustness_report.md has patch section,FAIL,missing patch
+08_revised_final_report.md has patch section,FAIL,missing patch

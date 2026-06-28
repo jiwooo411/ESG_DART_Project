@@ -1,0 +1,8 @@
+﻿category,count,notes,pct_of_381
+MemberA universe target,381,"127 firms × fy {2022,2023,2024}",100.0
+success_memberC_native,60,in features_exp_F AND merged_with_kcgs,15.7
+partial_salvageable,8,"zip on disk, NO_PASSAGES or EMPTY_FEATURE",2.1
+awaiting_refetch_fy2024,127,all 127 firms × fy 2024 — needs DART API call,33.3
+awaiting_refetch_oou,186,93 MemberA firms not in user 81-list × 2 fy,48.8
+user_native_extension (out-of-MemberA),175,175 firm-years collected outside MemberA universe,45.9
+TOTAL user-pipeline rows (all 3 fy 2021-2023),243,maximum N from current user pipeline,63.8

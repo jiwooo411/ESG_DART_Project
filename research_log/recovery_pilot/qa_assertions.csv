@@ -1,0 +1,12 @@
+﻿check,status,detail
+no_duplicate_within_universe[memberA_127x3],PASS,dup=0
+no_duplicate_within_universe[user_native_extension],PASS,dup=0
+stock_code_zfill6,PASS,non-6-char=0
+fiscal_year_coverage,PASS,"fy in lineage=[np.int64(2021), np.int64(2022), np.int64(2023), np.int64(2024)]"
+feature_nan_rate_under_5pct,PASS,max_nan_pct=0.000%
+feature_pipeline_row_count,PASS,"rows per exp: [213, 213, 213]"
+section_coverage_II_IV_VI,PASS,firm-years with all 3 sections=243
+merge_integrity_unique_key,FAIL,dups in merged exp_F=1
+lineage_completeness_status_populated,PASS,null status count=0
+no_unknown_provenance,PASS,unknown count=0
+SUCCESS_rows_in_merged,PASS,phantom SUCCESS=0

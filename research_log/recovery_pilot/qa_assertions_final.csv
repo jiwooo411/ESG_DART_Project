@@ -1,0 +1,37 @@
+check,status,detail
+preprocessor.py: valid Python,PASS,
+preprocessor.py: STOPWORDS_OFFICIAL,PASS,
+preprocessor.py: STOPWORDS_EXTENDED_PLUS_OFFICIAL,PASS,
+preprocessor.py: load_official_stopwords,PASS,
+preprocessor.py: get_stopword_set,PASS,
+preprocessor.py: exp_A config,PASS,
+preprocessor.py: exp_B config,PASS,
+preprocessor.py: exp_C config,PASS,
+preprocessor.py: exp_D config,PASS,
+preprocessor.py: exp_E config,PASS,
+preprocessor.py: exp_F config,PASS,
+preprocessor.py: exp_F_official config,PASS,
+artifact: data/04_preprocessed/recovery/tokenized_exp_F_official.csv,PASS,7780427 bytes
+artifact: data/04_preprocessed/recovery/stopwords_recovery_diagnostics.json,PASS,649 bytes
+artifact: data/05_features/recovery/features_exp_F_official.csv,PASS,25054 bytes
+artifact: data/05_features/recovery/merged_exp_F_official.parquet,PASS,26313 bytes
+artifact: data/05_features/recovery/stopwords_delta_spearman.csv,PASS,618 bytes
+artifact: data/05_features/recovery/verbosity_orth_delta.csv,PASS,453 bytes
+artifact: data/05_features/recovery/feature_means_delta.csv,PASS,381 bytes
+artifact: data/05_features/recovery/bootstrap_ci_before_after.csv,PASS,488 bytes
+artifact: data/05_features/recovery/sign_stability_before_after.csv,PASS,319 bytes
+artifact: outputs/recovery/COMPARISON_30_stage4_robustness_layer.html,PASS,16755 bytes
+matched N=210,PASS,
+F_official: known KT&G dup inherited from upstream,PASS,"1 known dup (033780/2023, identical features) — pre-existing in merged_exp_F"
+patch landed: 02_preprocess_exp_F_report.md,PASS,
+patch landed: 03_feature_validation_report.md,PASS,
+patch landed: 04_regression_robustness_report.md,PASS,
+patch landed: 08_revised_final_report.md,PASS,
+Stage-4 HTML section §1.,PASS,
+Stage-4 HTML section §2.,PASS,
+Stage-4 HTML section §3.,PASS,
+Stage-4 HTML section §4.,PASS,
+Stage-4 HTML section §5.,PASS,
+Stage-4 HTML section §6.,PASS,
+Stage-4 HTML section §7.,PASS,
+Stage-4 HTML section §8.,PASS,

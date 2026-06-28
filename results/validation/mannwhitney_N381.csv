@@ -1,0 +1,9 @@
+﻿feature,U,p,sig,high_mean,low_mean
+total_tokens,27600,0.0,***,7758.1667,3582.2305
+esg_signal_count,24692,0.0,***,45.4275,17.8477
+g_signal_count,27281,0.0,***,138.5072,83.93
+esg_signal_ratio,20056,0.0015,**,0.0053,0.0038
+g_signal_ratio,13280,0.0007,***,0.0237,0.0302
+esg_tfidf_concentration,12701,0.0001,***,0.0227,0.0344
+esg_g_relative,16767,1.0,ns,1.0,1.0
+bp_contamination_rate,16767,1.0,ns,0.0,0.0

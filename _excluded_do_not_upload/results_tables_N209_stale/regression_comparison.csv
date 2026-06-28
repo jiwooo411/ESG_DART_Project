@@ -1,0 +1,6 @@
+﻿model,coef_g_signal_ratio,se,p,n,r2,controls
+M1 OLS,-3.6837,0.9902,0.0002,209,0.0605,none
+M2 OLS,-1.4856,1.6772,0.3758,209,0.0731,log_tokens
+M3 OLS,-1.4779,1.6477,0.3697,209,0.1239,log_tokens + industry_FE + year_FE
+M4 Ordered Logit,0.1349,0.363,0.7101,209,0.029,log_tokens
+M5 Binary Logit,-2.9739,4.1978,0.4787,209,0.0255,log_tokens

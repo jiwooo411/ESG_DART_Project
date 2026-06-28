@@ -1,0 +1,8 @@
+﻿feature,rho_raw,p_raw,rho_feat_x_logtokens,rho_orth_log_tokens,p_orth,shrinkage_pct,verb_dominated
+esg_signal_count,0.2369,0.0006,0.8712,-0.0161,0.8173,93.2,True
+g_signal_count,0.345,0.0,0.6957,0.2447,0.0004,29.1,False
+esg_signal_ratio,0.0832,0.2312,0.4433,-0.0487,0.484,41.5,False
+g_signal_ratio,-0.1952,0.0046,-0.8257,0.0584,0.4007,70.1,True
+esg_tfidf_concentration,-0.1748,0.0114,-0.716,-0.0563,0.4183,67.8,True
+esg_g_relative,-0.0502,0.4704,-0.1937,0.2509,0.0002,-399.9,False
+bp_contamination_rate,0.05,0.4722,0.1938,-0.2508,0.0002,-401.6,False

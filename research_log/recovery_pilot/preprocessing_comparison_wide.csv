@@ -1,0 +1,9 @@
+﻿feature,rho_B,rho_E,rho_F,sign_consistent,rho_range
+bp_contamination_rate,-0.0719,0.0519,0.05,False,0.1238
+esg_g_relative,-0.0492,-0.0521,-0.0502,True,0.0029
+esg_signal_count,0.2336,0.2298,0.2369,True,0.0071
+esg_signal_ratio,0.0929,0.0762,0.0832,True,0.0167
+esg_tfidf_concentration,-0.1854,-0.1696,-0.1748,True,0.0158
+g_signal_count,0.3243,0.3372,0.345,True,0.0207
+g_signal_ratio,-0.1967,-0.1897,-0.1952,True,0.007
+total_tokens,0.2627,0.2726,0.2796,True,0.0169

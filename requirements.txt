@@ -1,0 +1,23 @@
+# ESG DART 프로젝트 의존성
+# 설치: pip install -r requirements.txt
+
+# DART API / 데이터 처리
+requests>=2.28.0
+pandas>=1.5.0
+lxml>=4.9.0
+beautifulsoup4>=4.11.0
+
+# 형태소 분석 (하나만 설치해도 됨)
+konlpy>=0.6.0          # Okt 포함
+kiwipiepy>=0.15.0      # Kiwi (Windows 친화적, Mecab 대안)
+# mecab-python3        # Mecab (Linux/Mac 권장, Windows 설치 복잡)
+
+# NLP / TF-IDF
+scikit-learn>=1.1.0
+
+# 시각화
+matplotlib>=3.5.0
+
+# (선택) Jupyter 환경
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
